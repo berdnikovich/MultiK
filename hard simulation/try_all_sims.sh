@@ -56,7 +56,7 @@ do
             echo "Data-splitting"
             python3 separator_uni.py "${resdir}/s4" $BL
     
-             ##build prior
+             ##build prior == s5 mHi-C
             echo "Building prior"
             validI1="${resdir}/s4/Uni_up_${BL}.Red_c"
             validI2="${resdir}/s4/Uni_down_${BL}.Red_c"
